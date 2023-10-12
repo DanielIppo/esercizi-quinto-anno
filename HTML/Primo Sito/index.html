@@ -6,14 +6,15 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
     <body class="bg-[#e6ffec]">
-        <div class="absolute top-0 left-0 right-0 bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded-bl-xl rounded-br-xl">
+        <!--Header-->
+        <div class="sticky top-0 left-0 right-0 bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded-bl-xl rounded-br-xl">
             <div class="flex p-2 justify-between content-center">
                 <div>
-                    <img src="./img/logo.png" width="50%" alt="NuclearPC" class="pl-6">
+                    <a href="./index.html"><img src="./img/logo.png" width="50%" alt="NuclearPC" class="pl-6"></a>
                 </div>
                 <div class="flex justify-end mt-[auto] mb-[auto] mr-6">
                     <div class="flex justify-between">
-                        <a class="inline-flex" href="#chisiamo">
+                        <a class="inline-flex" href="./index.html#chisiamo">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 002.625.372 9.337 9.337 0 004.121-.952 4.125 4.125 0 00-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 018.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0111.964-3.07M12 6.375a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zm8.25 2.25a2.625 2.625 0 11-5.25 0 2.625 2.625 0 015.25 0z" /></svg>
                             <p>Chi Siamo</p>
                         </a>
@@ -27,18 +28,46 @@
                 </div>
             </div>
         </div>
+
+        <!--MAIN-->
+        <div class="flex-col">
+            <!-- Primo Riquadro -->
+            <div class="mt-10 ml-10 w-[45%] h-[auto] bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded">
+                <p class="font-bold m-4">Benvenuti nel Futuro dell'Elaborazione: Il PC Nucleare</p>
+                <p class="ml-4">Il PC Nucleare è una rivoluzione nell'ambito della tecnologia informatica, un prodigio di ingegneria che combina l'energia nucleare con l'elaborazione avanzata per offrire prestazioni eccezionali, sostenibilità e affidabilità. Questo straordinario dispositivo è alimentato da batterie speciali che utilizzano materiali radioattivi decaduti per garantire un'energia inesauribile, riducendo al minimo l'impatto ambientale.</p>
+                <img src="./img/batterie_al_diamante_radiattivo.png" width="40%" alt="Batterie al diamante e scorie radioattive" class="ml-[auto] mr-[auto] mt-6 mb-6">
+            </div>
+            <!-- Secondo Riquadro -->
+            <div class="mt-10 mr-10 ml-[auto] w-[45%] h-[auto] bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded">
+                <p class="font-bold m-4"> Caratteristiche Principali del PC Nucleare:</p>
+                <ol class="ml-8 mr-4 mb-4 list-decimal">
+                    <li class="font-bold">Energia Illimitata: <a class="font-normal ml-1">Grazie alla sua innovativa tecnologia di batterie nucleari, il PC Nucleare non richiede mai una ricarica. L'energia generata dalla decadimento radioattivo è costante e dura per decenni.</a></li>
+                    <li class="font-bold">Sicurezza Assoluta: <a class="font-normal ml-1">Le batterie radioattive del PC Nucleare sono sigillate e altamente sicure. Non c'è alcun rischio di esposizione ai materiali radioattivi, rendendo il dispositivo sicuro per l'uso quotidiano.</a></li>
+                    <li class="font-bold">sostenibilità: <a class="font-normal ml-1">Riducendo la dipendenza dalle fonti di energia tradizionali, il PC Nucleare contribuisce in modo significativo alla riduzione delle emissioni di carbonio. È un passo importante verso un futuro sostenibile.</a></li>
+                    <li class="font-bold">Design Futuristico: <a class="font-normal ml-1">Il PC Nucleare è stato progettato con uno stile moderno e futuristico. Il suo chassis è realizzato con materiali resistenti e leggeri, mentre lo schermo offre una qualità visiva straordinaria.</a></li>
+                </ol>
+                <img src="./img/nuclearPC.png" width="30%" alt="Batterie al diamante e scorie radioattive" class="ml-[auto] mr-[auto] mt-6 mb-6">
+            </div>
+            <!-- Terzo Riquadro -->
+            <div class="mt-10 ml-10 w-[45%] h-[auto] bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded">
+                <p class="font-bold m-4">Il Futuro è Qui</p>
+                <p class="ml-4">Con il PC Nucleare, il futuro è a portata di mano. Non solo offre potenza e prestazioni eccezionali, ma contribuisce anche a preservare il nostro pianeta attraverso un'energia sostenibile e pulita. Sia che tu sia uno studente, un professionista o un appassionato di tecnologia, il PC Nucleare è l'opzione ideale per affrontare le sfide del mondo digitale. Entra nel futuro oggi stesso con il PC Nucleare!</p>
+            </div>
+        </div>
+
         <!--FOOTER-->
-        <div class="absolute bottom-0 left-0 right-0 bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded-tl-xl rounded-tr-xl">
+        <div class="mt-20 bg-[#d7fce0] border-[1px] border-solid border-[#cafad6] rounded-tl-xl rounded-tr-xl">
             <div class="flex flex-col">
+                <a name="chisiamo"></a>
                 <p class="font-bold text-[#000000]/70 ml-4 mt-2 mb-2">Chi siamo</p>
-                <p class="font-semibold text-[#000000]/80 text-sm ml-4"> Siamo un gruppo di ragazzi che hanno deciso di studiare per proporre al mondo questa nuova tecnologia che potrebbe essere rivoluzionaria.</p>
-                <div class="flex flex-col ml-[auto] mr-4">
+                <p class="font-semibold text-[#000000]/80 text-sm ml-4 w-[50%]"> Siamo un gruppo di ragazzi che hanno deciso di studiare per proporre al mondo questa nuova tecnologia che potrebbe essere rivoluzionaria.</p>
+                <div class="flex flex-col ml-[auto] mr-4 mb-4">
                     <p class="font-bold text-[#000000]/70">Contatti</p>
-                    <ul class="text-sm ml-2">
-                        <li class="flex"><p class="font-bold text-[#000000]/70">Whatsapp:</p><p>+39 333 333 3333</p></li>
-                        <li class="flex"><p class="font-bold text-[#000000]/70">Telegram:</p><p>+39 333 333 3333</p></li>
-                        <li class="flex"><p class="font-bold text-[#000000]/70">Instagram:</p><p>+39 333 333 3333</p></li>
-                        <li class="flex"><p class="font-bold text-[#000000]/70">Email:</p><p>+39 333 333 3333</p></li>
+                    <ul class="text-sm ml-6 list-disc">
+                        <li class="font-bold text-[#000000]/70 mr-1">Whatsapp: <a target=”_blank” href="https://www.fakechatapp.com/" class="text-xs">+39 333 333 3333</a></li>
+                        <li class="font-bold text-[#000000]/70 mr-1">Telegram: <a target=”_blank” href="https://t.me/NuclearPc" class="text-xs">NuclearPC</a></li>
+                        <li class="font-bold text-[#000000]/70 mr-1">Instagram: <a target=”_blank” href="https://www.instagram.com/nuclear_pc/?igshid=OGQ5ZDc2ODk2ZA%3D%3D" class="text-xs">nuclear_pc</a></li>
+                        <li class="font-bold text-[#000000]/70 mr-1">Email: <a target=”_blank” href="mailto:nuclearpc@mailsac.com" class="text-xs">nuclearpc@mailsac.com</a></li>
                     </ul>
                 </div>
             </div>
