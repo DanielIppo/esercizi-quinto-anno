@@ -21,7 +21,7 @@ public class Main {
             BufferedReader inputServer = new BufferedReader(new InputStreamReader(client.getInputStream()));
         
             System.out.println("Richiesta della risorsa al server... \n\n");
-            String request = "GET " + resource + " HTTP/" + httpVersion + "\n\n";
+            String request = "GET " + resource + " HTTP/" + httpVersion + "\n" + "Host: " + serverAddress + "\n\n";
             outputServer.writeBytes(request);
             outputServer.flush();
             
