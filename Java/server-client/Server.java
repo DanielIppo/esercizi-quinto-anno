@@ -54,10 +54,9 @@ public class Server {
             this.clientSocket = clientSocket;
         }
 
-        //Futuro Daniel implementare il codice del server qua
         @Override
         public void run() {
-            System.out.println("New client connected");
+            System.out.println("New client connected"); //Genereare un id univoco e a ogni richiesta dei vari client scriverlo in console per identificarli
 
             try {
                 BufferedReader inputClient = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
